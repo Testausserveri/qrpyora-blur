@@ -2,7 +2,7 @@ name: Docker CD
 
 on:
   push:
-  workflow_run:
+  workflow_dispatch:
 
 jobs:
   Build-and-Push-Docker-Image:
